@@ -12,10 +12,10 @@ function MarseilleAccomodation() {
         <div className="title-h2-and-icon">
           <h2>Les plus populaires</h2>
           <i className="fas fa-chart-line" />
+        </div>
           <MostPopularsOneCard name="Hôtel Le Soleil Du Matin" price="128" image={HôtelLeSoleilDuMatin}/>
           <MostPopularsOneCard name="Au coeur de l'eau Chambres d'hôtes" price="71" image={AuCoeurDeLeauChambreDhôtes} />
           <MostPopularsOneCard name="Hôtel Tout bleu et blanc" price="68" image={HôtelToutBleuEtBlanc} />
-        </div>
       </div>
     </div>
   );
