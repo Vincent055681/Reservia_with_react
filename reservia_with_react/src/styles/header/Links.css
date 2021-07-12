@@ -1,18 +1,9 @@
-.navbar {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "logo . accomodation activities sign-up";
-}
 .navbar .navbar-link {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  
   
   .navbar .navbar-link .underline-effect {
     width: 100%;
