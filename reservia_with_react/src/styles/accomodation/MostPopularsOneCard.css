@@ -1,0 +1,23 @@
+.most-populars {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.25fr 1fr 1fr 1fr;
+    row-gap: 25px;
+    height: 90%;
+    width: 90%;
+  }
+  
+  .most-populars .title-h2-and-icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .most-populars .title-h2-and-icon h2 {
+    margin: 0;
+  }
+  
+  .most-populars i {
+    font-size: 26px;
+  }

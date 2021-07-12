@@ -1,3 +1,4 @@
+import "../../styles/accomodation/Accomodation.css";
 import "../../styles/accomodation/MarseilleAccomodation.css";
 import "../../styles/accomodation/MostPopulars.css";
 
