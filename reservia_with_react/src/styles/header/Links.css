@@ -1,0 +1,78 @@
+.navbar {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "logo . accomodation activities sign-up";
+}
+.navbar .navbar-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  .navbar .navbar-link .underline-effect {
+    width: 100%;
+    height: 3px;
+    background: white;
+  }
+  
+  .navbar #navbar-link-accomodation > .underline-effect {
+    background: #0065fc;
+  }
+  
+  .navbar #navbar-link-activities:hover > .underline-effect {
+    background: #0065fc;
+  }
+  
+  #navbar-link-sign-up a {
+    color: #0065fc;
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+  }
+  
+  .navbar a:visited {
+    color: #0065fc;
+  }
+  
+  .navbar img {
+    grid-area: logo;
+  }
+  
+  .navbar #navbar-link-accomodation {
+    grid-area: accomodation;
+  }
+  
+  #navbar-link-accomodation a {
+    color: #0065fc;
+  }
+  
+  .navbar #navbar-link-activities {
+    grid-area: activities;
+    color: black;
+  }
+  
+  .navbar #navbar-link-activities a {
+    color: black;
+  }
+  
+  .navbar #navbar-link-activities a:hover {
+    color: #0065fc;
+  }
+  
+  .navbar #navbar-link-sign-up {
+    grid-area: sign-up;
+    color: #0065fc;
+    font-weight: 600;
+  }
+  
+  .navbar .active-link {
+    color: #0065fc;
+  }
